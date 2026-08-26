@@ -216,3 +216,11 @@ Et dans la session RStudio :
 REMARQUE IMPORTANTE SUR LES WORKBENCH JOB :  
 
 Tout script soumis en Workbench Job doit être 100 % autonome. Le job s’exécutant dans un processus distinct, il n'hérite d'aucune variable ni état défini dans votre console active. Initialisez systématiquement toutes vos variables et paramètres de contexte directement à l'intérieur du script.
+
+# Points divers {.backgroundTitre}
+
+## Projets avec {renv}
+
+Les projets R importants ainsi que les applications shiny qui utilisent le `renv` pour la gestion des packages seront migrés par le PAOS au T4 2026.  
+  
+En attendant, il est conseillé de fixer la version de R à 4.4.1 pour continuer à utiliser ces applications/projets.  
