@@ -1,0 +1,40 @@
+---
+title: "Cerise version 2026"
+subtitle: "Présentation des évolutions et des nouvelles fonctionnalités de la plateforme"
+date: 2026-09-14
+date-format: "DD/MM/YYYY"
+author: "SSP/DEMESIS/BQIS/PAOS"
+description: |
+  Présentation de Cerise C3P
+
+slide-tone: false # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+transition: slide
+fig-cap-location: bottom
+self-contained: true
+
+toc: true
+toc-title: Sommaire
+toc-depth: 1
+toc-float: true
+
+# multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+---
+
+## Calendrier
+
+
+- Ouverture plateforme de test : 03/08/2026.
+- Période de test utilisateur : Jusqu’au 17 septembre 2026
+- Ouverture plateforme de production : Prévue début octobre 2026.
+
+
+## Une mise à jour annuelle
+
+![](img/versions.png){fig-align="center"}
