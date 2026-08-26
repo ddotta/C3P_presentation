@@ -295,3 +295,11 @@ Pour les nouveaux arrivants au 1er septembre qui souhaitent utiliser Git, 2 cas 
 1. Vous avez déjà utilisé Git et il vous faut suivre ce [tutoriel de configuration](https://github.com/user-attachments/files/30405999/Tutoriel.-.Configuration.d.une.connexion.Cerise_Gitlab.pdf) sous Cerise.  
   
 2. Vous n'avez jamais utilisé Git => inscrivez vous aux formations à venir.
+
+## Quarto
+
+Monté de version de quarto en 1.9.38
+
+Dans certains cas d'usages (des documents quartos utilisés par plusieurs utilisateurs) il se peut que des problèmes d'écriture se produisent sur la nouvelle version de Cerise.  
+
+=> **Si tel est le cas, faire un mail à l'assistance**.
