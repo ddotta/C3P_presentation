@@ -53,37 +53,47 @@ Le Load Balancing (ou équilibrage de charge) consiste à distribuer le trafic i
 
 ::: {.column width="50%"}
 
-🖥️ Production
+ **Production**
 
-Passage à une haute disponibilité :
-
-Avant : 3 instances (350 Go RAM)
-
+Passage à une haute disponibilité :  
+Avant : 3 instances (350 Go RAM)  
 Après : 10 instances en load balancing (2,5 To RAM)
 :::
 
 ::: {.column width="50%"}
 
-🧪 Test / Recette
+ **Test / Recette**
 
-Capacité accrue pour les tests de charge :
-
-Avant : 2 instances (128 Go RAM)
-
+Capacité accrue pour les tests de charge :  
+Avant : 2 instances (128 Go RAM)  
 Après : 5 instances en load balancing (650 Go RAM)
 :::
 
 ::::
 
+<br>
+
 ::: {.callout-success icon=false}
 
-📈 Bénéfices clés
-
-⚡ Meilleure répartition de la charge
-
-⏱️ Réduction des temps d’attente
-
-🚀 Scalabilité accrue
+**Bénéfices clés**  
+⚡ Meilleure répartition de la charge   
+⏱️ Réduction des temps d’attente  
+🚀 Scalabilité accrue  
 
 :::
 
+## Nouvelle gestion des sessions
+
+Sécurité : mise en place de authentification OIDC (ajout d'une étape/clic à la connexion)
+
+![](img/oidc.png){fig-align="center"}
+
+- Limite de sessions simultanées : **3 sessions max par utilisateur** (pour garantir des ressources équitables).  
+- Timeout des sessions inactives : Fermeture automatique après **4 jours d’inactivité** (pour libérer les ressources).  
+  
+Profils de sessions :  
+
+- **Default et Medium** : Accessibles à tous (adaptés à la majorité des usages).  
+- **Large et Superuser** : Disponibles sur demande (pour les besoins intensifs en RAM/CPU).  
+
+[Contactez le support pour demander un profil étendu :]{.red} [assistance.si-stat.sg@agriculture.gouv.fr]{.blue}
