@@ -224,3 +224,53 @@ Tout script soumis en Workbench Job doit être 100 % autonome. Le job s’exécu
 Les projets R importants ainsi que les applications shiny qui utilisent le `renv` pour la gestion des packages seront migrés par le PAOS au T4 2026.  
   
 En attendant, il est conseillé de fixer la version de R à 4.4.1 pour continuer à utiliser ces applications/projets.  
+
+## Formatteur air
+
+RStudio gère désormais nativement le formatage du code via [Air](https://posit-dev.github.io/air/).  
+
+Disponible via le menu `Code` :
+
+![](img/reformat.png){fig-align="center"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Sans air :  
+  
+```{.r}
+library(  dplyr)
+
+test<-letters
+
+calcul_moyenne<-function( x , y ){
+  res =  mean(x ,na.rm=TRUE ) + sum( y )
+  if(res> 10){
+    return( res )
+  }else{ return(0) }
+}
+
+```
+:::
+
+::: {.column width="50%"}
+Avec air :  
+  
+```{.r}
+library(dplyr)
+
+test <- letters
+
+calcul_moyenne <- function(x , y) {
+  res =  mean(x , na.rm = TRUE) + sum(y)
+  if (res > 10) {
+    return(res)
+  } else{
+    return(0)
+  }
+}
+
+```
+:::
+
+::::
