@@ -128,3 +128,23 @@ Utilisez le bouton en haut à gauche de la fenêtre pour personnaliser les infor
 ## Le data viewer summary
 
 ![](img/data_viewer_summary.png){fig-align="center"}
+
+## Une nouvelle sidebar
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](img/new_sidebar.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](img/configure_sidebar.png){fig-align="center"}
+:::
+
+::::
+
+## Recherche textuelle dans la console
+
+Il est désormais possible de faire une recherche textuelle dans la console R 
+
+![](img/recherche_console.png){fig-align="center"}
