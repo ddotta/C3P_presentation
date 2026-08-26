@@ -148,3 +148,33 @@ Utilisez le bouton en haut à gauche de la fenêtre pour personnaliser les infor
 Il est désormais possible de faire une recherche textuelle dans la console R 
 
 ![](img/recherche_console.png){fig-align="center"}
+
+## typst
+
+Typst (0.13.1) est désormais nativement intégré dans RStudio et permet de générer des documents pdf sans installation nécessaire 
+
+
+````{.bash}
+---
+title: "Recette Technique C3P 2026"
+author: "La R team"
+format: typst
+---
+   
+## Test de rendu ultra-rapide
+   
+Si ce document compile en moins de 2 secondes, le moteur Typst est opérationnel.
+ 
+### Un graphique
+ 
+```{.r}
+#| eval: true
+#| echo: false
+ 
+library(ggplot2)
+ggplot(mtcars, aes(wt, mpg)) +
+  geom_point(color = "#0073C2") +
+  theme_minimal()
+```
+````
+
