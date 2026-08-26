@@ -274,3 +274,18 @@ calcul_moyenne <- function(x , y) {
 :::
 
 ::::
+
+## Quid de Python ?
+
+Pas d'installation spécifique faite sur Cerise. Il y a seulement la version de Python qui est livrée avec Red Hat :  
+
+- Actuellement, Python 3.6 avec RHEL 8  
+- Sur C3P, Python 3.9 avec RHEL 9  
+
+Il est possible de faire du python en utilisant le package R {reticulate}. 
+
+
+## Interactions avec la forge gitlab
+
+Git est également monté de version (2.47.1).
+
