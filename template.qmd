@@ -97,3 +97,19 @@ Profils de sessions :
 - **Large et Superuser** : Disponibles sur demande (pour les besoins intensifs en RAM/CPU).  
 
 [Contactez le support pour demander un profil étendu :]{.red} [assistance.si-stat.sg@agriculture.gouv.fr]{.blue}
+
+## Demande d'assistance liée à la montée de version de Cerise
+
+Le BQIS vous fournit le template de mail suivant :  
+  
+::: {.callout-note icon=false title="Exemple de mail"}
+Pour : [assistance.si-stat.sg@agriculture.gouv.fr]{.blue}    
+
+Sujet : [CERISE][Montée de version] Description succinte  
+
+• Environnement : PPRD/QLF - PROD  
+• Version de R_Base :  
+• Chemin du programme :  
+• Descriptif de l'erreur rencontrée :  
+*Joindre éventuellement le rapport d'erreur si disponible ou une copie d'écran.*  
+:::
