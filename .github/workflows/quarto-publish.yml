@@ -39,11 +39,11 @@ jobs:
 
       - name: Deploy to gh-pages branch
         run: |
-          cp -r _site /tmp/rsonar_pages
+          cp -r _site /tmp/c3p_pages
           git fetch origin gh-pages || true
           git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
           git rm -rf . || true
-          cp -r /tmp/rsonar_pages/* .
+          cp -r /tmp/c3p_pages/* .
           touch .nojekyll
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
