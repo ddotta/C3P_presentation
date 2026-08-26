@@ -288,4 +288,10 @@ Il est possible de faire du python en utilisant le package R {reticulate}.
 ## Interactions avec la forge gitlab
 
 Git est également monté de version (2.47.1).
+N'hésitez pas à faire remonter au BQIS d'éventuels dysfonctionnements de Git sous Cerise.  
 
+Pour les nouveaux arrivants au 1er septembre qui souhaitent utiliser Git, 2 cas de figure :   
+
+1. Vous avez déjà utilisé Git et il vous faut suivre ce [tutoriel de configuration](https://github.com/user-attachments/files/30405999/Tutoriel.-.Configuration.d.une.connexion.Cerise_Gitlab.pdf) sous Cerise.  
+  
+2. Vous n'avez jamais utilisé Git => inscrivez vous aux formations à venir.
