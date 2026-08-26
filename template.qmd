@@ -178,3 +178,41 @@ ggplot(mtcars, aes(wt, mpg)) +
 ```
 ````
 
+## Les workbench jobs (1/5)
+
+Il est désormais possible de lancer des "Workbench jobs" depuis une session.  
+  
+Contrairement aux "Background Jobs" classiques qui tournent en arrière-plan au sein de la même session R, les "Workbench Jobs" lancent l'exécution de scripts R dans des sessions totalement indépendantes et distinctes.  
+  
+Cette fonctionnalité pourra permettre d'exécuter des scripts lourds ou de longs calculs. Contrairement aux jobs d'arrière-plan classiques, ils s'exécutent dans un processus distinct, ce qui signifie que vous pouvez continuer à coder ou même fermer votre session RStudio Pro sans jamais interrompre l'exécution de vos tâches
+
+
+## Les workbench jobs (2/5)
+
+Pour lancer un "Workbench Job", renseigner les deux fenêtres suivantes :
+
+![](img/start_workbench_part_1.png){fig-align="center"}
+
+![](img/start_workbench_job_part2.png){fig-align="center"}
+
+## Les workbench jobs (3/5)
+
+Le Job se retrouve dans l'onglet Job de Posit Workbench :
+
+![](img/workbench_home.png){fig-align="center"}
+  
+Et dans la session RStudio :  
+
+![](img/workbench_job_succes.png){fig-align="center"}
+
+
+## Les workbench jobs (4/5)
+
+![](img/log_part1.png){fig-align="center"}
+
+## Les workbench jobs (5/5)
+
+![](img/log_part2.png){fig-align="center"}
+REMARQUE IMPORTANTE SUR LES WORKBENCH JOB :  
+
+Tout script soumis en Workbench Job doit être 100 % autonome. Le job s’exécutant dans un processus distinct, il n'hérite d'aucune variable ni état défini dans votre console active. Initialisez systématiquement toutes vos variables et paramètres de contexte directement à l'intérieur du script.
