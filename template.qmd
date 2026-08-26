@@ -27,6 +27,8 @@ editor:
   render-on-save: true
 ---
 
+# Contexte et cadrage {.backgroundTitre}
+
 ## Calendrier
 
 
@@ -38,3 +40,50 @@ editor:
 ## Une mise à jour annuelle
 
 ![](img/versions.png){fig-align="center"}
+
+## Une montée en puissance de l'infrastructure
+
+::: {.callout-important icon=false title="Mise en place du load balancing"}
+Le Load Balancing (ou équilibrage de charge) consiste à distribuer le trafic informatique sur plusieurs serveurs au lieu de tout envoyer vers une seule machine.
+
+💡 Note : Le load balancing distribue automatiquement le trafic entre plusieurs instances de manière totalement transparente pour l'utilisateur sur Cerise.
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+🖥️ Production
+
+Passage à une haute disponibilité :
+
+Avant : 3 instances (350 Go RAM)
+
+Après : 10 instances en load balancing (2,5 To RAM)
+:::
+
+::: {.column width="50%"}
+
+🧪 Test / Recette
+
+Capacité accrue pour les tests de charge :
+
+Avant : 2 instances (128 Go RAM)
+
+Après : 5 instances en load balancing (650 Go RAM)
+:::
+
+::::
+
+::: {.callout-success icon=false}
+
+📈 Bénéfices clés
+
+⚡ Meilleure répartition de la charge
+
+⏱️ Réduction des temps d’attente
+
+🚀 Scalabilité accrue
+
+:::
+
