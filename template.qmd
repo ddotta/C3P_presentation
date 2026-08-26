@@ -113,3 +113,18 @@ Sujet : [CERISE][Montée de version] Description succinte
 • Descriptif de l'erreur rencontrée :  
 *Joindre éventuellement le rapport d'erreur si disponible ou une copie d'écran.*  
 :::
+
+# Nouvelles fonctionnalités {.backgroundTitre}
+
+## Une page d'accueil modifiée
+
+![](img/home.png){fig-align="center"}
+
+Utilisez le bouton en haut à gauche de la fenêtre pour personnaliser les informations contenus dans votre page d'accueil.
+
+🆕 Possibilité de nommer vos sessions.
+
+
+## Le data viewer summary
+
+![](img/data_viewer_summary.png){fig-align="center"}
