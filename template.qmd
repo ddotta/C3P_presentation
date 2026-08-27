@@ -116,7 +116,7 @@ Sujet : [CERISE][Montée de version] Description succinte
 
 # Nouvelles fonctionnalités {.backgroundTitre}
 
-## Une page d'accueil modifiée
+## Une page d'accueil modifiée (1/3)
 
 ![](img/home.png){fig-align="center"}
 
@@ -124,6 +124,13 @@ Utilisez le bouton en haut à gauche de la fenêtre pour personnaliser les infor
 
 🆕 Possibilité de nommer vos sessions.
 
+## Une page d'accueil modifiée (3/3)
+
+![](img/home_settings.png){fig-align="center"}
+
+## Une page d'accueil modifiée (3/3)
+
+![](img/home_old.png){fig-align="center"}
 
 ## Le data viewer summary
 
@@ -303,3 +310,9 @@ Monté de version de quarto en 1.9.38
 Dans certains cas d'usages (des documents quartos utilisés par plusieurs utilisateurs) il se peut que des problèmes d'écriture se produisent sur la nouvelle version de Cerise.  
 
 => **Si tel est le cas, faire un mail à l'assistance**.
+
+## Autres cas
+
+- Le package Eulerr n'est actuellement pas installable sur le nouveau Cerise.  
+
+Si vous constatez d'autres manques, signalez-nous le !
