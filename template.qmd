@@ -116,19 +116,29 @@ Sujet : [CERISE][Montée de version] Description succinte
 
 # Nouvelles fonctionnalités {.backgroundTitre}
 
-## Une page d'accueil modifiée (1/3)
+## Une page d'accueil modifiée (1/4)
 
 ![](img/home.png){fig-align="center"}
 
 Utilisez le bouton en haut à gauche de la fenêtre pour personnaliser les informations contenus dans votre page d'accueil.
 
-🆕 Possibilité de nommer vos sessions.
+## Une page d'accueil modifiée (2/4)
 
-## Une page d'accueil modifiée (3/3)
+La page d'accueil vous permet de :
+
+1. Lancez de nouvelles sessions autonomes 
+2. Lancer une nouvelle session rattaché à un projet précédemment ouvert.
+3. Sélectionner une session en cours
+4. Suspendre la session sélectionnée
+5. Fermer le session sélectionnée
+6. Supprimer l'affichage des projets précédemment ouverts
+7. 🆕 Attribuer un nom pertinent à vos sessions 
+
+## Une page d'accueil modifiée (3/4)
 
 ![](img/home_settings.png){fig-align="center"}
 
-## Une page d'accueil modifiée (3/3)
+## Une page d'accueil modifiée (4/4)
 
 ![](img/home_old.png){fig-align="center"}
 
