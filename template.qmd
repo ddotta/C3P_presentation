@@ -172,6 +172,9 @@ La page d'accueil vous permet de :
 
 ## Le data viewer summary
 
+Accès au "data viewer summary" qui permet d'afficher instantanément des statistiques descriptives (comme la moyenne, les valeurs manquantes) et des graphiques de distribution pour chaque variable.  
+
+
 ![](img/data_viewer_summary.png){fig-align="center"}
 
 ## Une nouvelle sidebar
@@ -192,7 +195,7 @@ Pratique pour encore plus organiser son environnement de travail.
 
 ## Recherche textuelle dans la console
 
-Il est désormais possible de faire une recherche textuelle dans la console R 
+Il est désormais possible de faire une recherche textuelle dans la console R  
 
 ![](img/recherche_console.png){fig-align="center"}
 
