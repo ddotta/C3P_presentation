@@ -228,6 +228,12 @@ ggplot(mtcars, aes(wt, mpg)) +
 ```
 ````
 
+**Rétrocompatibilité  préservée :**  
+
+- `format: pdf` continue d'utiliser le moteur LaTeX. Vos docs quarto existants continueront de fonctionner exactement comme avant.  
+   
+- `format: typst` active le nouveau moteur Typst.
+
 ## Les workbench jobs (1/5)
 
 Il est désormais possible de lancer des "Workbench jobs" depuis une session.  
