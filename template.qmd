@@ -358,14 +358,23 @@ Pour les nouveaux arrivants au 1er septembre qui souhaitent utiliser Git, 2 cas 
 
 ## Quarto
 
-Monté de version de quarto en 1.9.38
+Montée de version de quarto en 1.9.38
 
-Dans certains cas d'usages (des documents quartos complexes utilisés par plusieurs utilisateurs) il se peut que des problèmes d'écriture se produisent sur la nouvelle version de Cerise.  
+Dans certains cas d'usages (documents quartos utilisés par plusieurs utilisateurs dont la compilation a échoué une première fois) il se peut que des problèmes d'écriture se produisent sur la nouvelle version de Cerise.  
 
 => **Si tel est le cas, faire un mail à l'assistance**.
 
 ## Autres cas
 
 - Le package Eulerr n'est actuellement pas installable sur le nouveau Cerise.  
+
+- Lorsque la langue de l'IDE est en français, l'affichage des data.frames contenus dans les listes ne fonctionne pas via l'IDE.  
+
+![](img/bug_traduction.png){fig-align="center"}
+
+```{.r}
+Error in Vue(titi[[2]]) : could not find function "Vue"
+```
+
 
 Si vous constatez d'autres manques, signalez-nous le !
