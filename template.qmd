@@ -367,6 +367,10 @@ Dans certains cas d'usages (documents quartos utilisés par plusieurs utilisateu
 
 ## Autres cas
 
+- Les accès aux bases Postgre et aux APIs ont été testés avec succès en PPRD. ✅  
+
+- Les batchs et jobs actuellement existants sur Cerise tourneront de la même manière. ✅  
+
 - Le package Eulerr n'est actuellement pas installable sur le nouveau Cerise.  
 
 - Lorsque la langue de l'IDE est en français, l'affichage des data.frames contenus dans les listes ne fonctionne pas via l'IDE.  
