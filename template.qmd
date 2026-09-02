@@ -32,7 +32,7 @@ editor:
 ## Calendrier
 
 
-- Ouverture plateforme de test : 03/08/2026.
+- Ouverture plateforme de test : 3 août 2026.
 - Période de test utilisateur : Jusqu’au 17 septembre 2026
 - Ouverture plateforme de production : Prévue début octobre 2026.
 
