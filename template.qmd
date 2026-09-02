@@ -31,11 +31,15 @@ editor:
 
 ## Calendrier
 
-
 - Ouverture plateforme de test : 3 août 2026.
 - Période de test utilisateur : Jusqu’au 17 septembre 2026
 - Ouverture plateforme de production : Prévue début octobre 2026.
 
+::: {.callout-note icon=false}
+Au moment de la mise en production en octobre, **une ré-initialisation des sessions sera effectué sur Cerise**. Veillez à bien sauvegarder votre travail en cours à cette date.
+:::
+
+- La date en plus : 18 septembre - Coupure des accès directs à internet depuis Cerise
 
 ## Une mise à jour annuelle
 
