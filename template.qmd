@@ -228,6 +228,8 @@ ggplot(mtcars, aes(wt, mpg)) +
 ```
 ````
 
+## typst et pdf
+
 **Rétrocompatibilité  préservée :**  
 
 - `format: pdf` continue d'utiliser le moteur LaTeX. Vos docs quarto existants continueront de fonctionner exactement comme avant.  
@@ -242,8 +244,10 @@ Il est désormais possible de lancer des **"Workbench jobs"** depuis une session
   
 Cette fonctionnalité pourra permettre **d'exécuter des scripts lourds ou de longs calculs**. Contrairement aux jobs d'arrière-plan classiques, ils s'exécutent dans un processus distinct, ce qui signifie que vous pouvez continuer à coder ou même fermer votre session RStudio Pro sans jamais interrompre l'exécution de vos tâches.  
 
-[Règle : Tout script soumis en Workbench Job doit être 100 % autonome.]{.content-box-red}  
-[Le job s'exécute dans une session R totalement isolée (souvent dans un conteneur ou sur un serveur distant). Il n'accède pas aux variables, fonctions ou données chargées dans la console RStudio active.]{.content-box-red}
+::: {.callout-important icon=false title="Règle"}
+Tout script soumis en Workbench Job doit être 100 % autonome.  
+Le job s'exécute dans une session R totalement isolée. Il n'accède pas aux variables, fonctions ou données chargées dans la console RStudio active.
+:::
 
 
 ## Les workbench jobs (2/5)
@@ -272,9 +276,6 @@ Et dans la session RStudio :
 ## Les workbench jobs (5/5)
 
 ![](img/log_part2.png){fig-align="center"}
-REMARQUE IMPORTANTE SUR LES WORKBENCH JOB :  
-
-Tout script soumis en Workbench Job doit être 100 % autonome. Le job s’exécutant dans un processus distinct, il n'hérite d'aucune variable ni état défini dans votre console active. Initialisez systématiquement toutes vos variables et paramètres de contexte directement à l'intérieur du script.
 
 # Points divers {.backgroundTitre}
 
