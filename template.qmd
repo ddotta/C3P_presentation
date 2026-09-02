@@ -152,7 +152,7 @@ La page d'accueil vous permet de :
 
 2. **Ressource Profile** : Profil des ressources matérielles disponibles pour la session  
 
-3. **Auto-join session** : Si l'option est sélectionnée, votre navigateur vous redirige automatiquement vers votre nouvelle session dès qu'elle est prête. (cas d'usage classique)  
+3. **Auto-join session** : Si l'option est sélectionnée, votre navigateur vous redirige automatiquement vers votre nouvelle session dès qu'elle est prête. 
 
 
 4. **Enable notifications** : Active les notifications au niveau du navigateur (nécessite des autorisation côté navigateur et OS). Lorsqu'elle est activée, le navigateur affiche un message contextuel sur votre PC dès que la session est prête (utile pour les sessions qui charge des données volumnineuses en cache)  
