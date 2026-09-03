@@ -86,11 +86,13 @@ Après : 5 instances en load balancing (650 Go RAM)
 
 :::
 
-## Nouvelle gestion des sessions
+## Nouvelle gestion des sessions (1/2)
 
 Sécurité : mise en place de authentification OIDC (ajout d'une étape/clic à la connexion)
 
 ![](img/oidc.png){fig-align="center"}
+
+## Nouvelle gestion des sessions (2/2)
 
 - Limite de sessions simultanées : **3 sessions max par utilisateur** (pour garantir des ressources équitables).  
 - Timeout des sessions inactives : Fermeture automatique après **4 jours d’inactivité** (pour libérer les ressources).  
