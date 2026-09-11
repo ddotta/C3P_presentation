@@ -36,7 +36,7 @@ editor:
 - Ouverture plateforme de production : Prévue début octobre 2026.
 
 ::: {.callout-note icon=false}
-Au moment de la mise en production en octobre, **une ré-initialisation des sessions sera effectué sur Cerise**. Veillez à bien sauvegarder votre travail en cours à cette date.
+Au moment de la mise en production en octobre, **une ré-initialisation des sessions sera effectuée sur Cerise**. Veillez à bien sauvegarder votre travail en cours à cette date.
 :::
 
 - La date en plus : 18 septembre - Coupure des accès directs à internet depuis Cerise
@@ -45,13 +45,17 @@ Au moment de la mise en production en octobre, **une ré-initialisation des sess
 
 ![](img/versions.png){fig-align="center"}
 
-## Une montée en puissance de l'infrastructure
+## Mise en place du load balancing
 
 ::: {.callout-important icon=false title="Mise en place du load balancing"}
 Le Load Balancing (ou équilibrage de charge) consiste à distribuer le trafic informatique sur plusieurs serveurs au lieu de tout envoyer vers une seule machine.
 
 💡 Note : Le load balancing distribue automatiquement le trafic entre plusieurs instances de manière totalement transparente pour l'utilisateur sur Cerise.
 :::
+
+![](img/schema_cerise.png){fig-align="center"}
+
+## Une montée en puissance de l'infrastructure
 
 :::: {.columns}
 
@@ -86,23 +90,57 @@ Après : 5 instances en load balancing (650 Go RAM)
 
 :::
 
-## Nouvelle gestion des sessions (1/2)
+## Nouvelle gestion des sessions (1/4)
 
 Sécurité : mise en place de authentification OIDC (ajout d'une étape/clic à la connexion)
 
 ![](img/oidc.png){fig-align="center"}
 
-## Nouvelle gestion des sessions (2/2)
+## Nouvelle gestion des sessions (2/4)
 
-- Limite de sessions simultanées : **3 sessions max par utilisateur** (pour garantir des ressources équitables).  
-- Timeout des sessions inactives : Fermeture automatique après **4 jours d’inactivité** (pour libérer les ressources).  
-  
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Une étude a été menée sur l'usage de la plateforme CERISE durant l'année 2025
+
+Sur un peu plus de 414 utilisateurs, se sont dégagés les profils suivants :
+
+:::
+
+::: {.column width="50%"}
+
+![](img/profils_utilisateurs.png){fig-align="center"}
+:::
+
+::::
+
+
+
+
+
+![](img/schema_etude.png){fig-align="center"}
+
+
+## Nouvelle gestion des sessions (3/4)
+
 Profils de sessions :  
 
 - **Default et Medium** : Accessibles à tous (adaptés à la majorité des usages).  
 - **Large et Superuser** : Disponibles sur demande (pour les besoins intensifs en RAM/CPU).  
 
 [Contactez le support pour demander un profil étendu :]{.red} [assistance.si-stat.sg@agriculture.gouv.fr]{.blue}
+
+## Nouvelle gestion des sessions (4/4)
+
+- Limite de sessions simultanées : **3 sessions max par utilisateur** (pour garantir des ressources équitables).  
+- Timeout des sessions inactives : Fermeture automatique après **4 jours d'inactivité** (pour libérer les ressources).  
+
+![](img/schema_sessions.png){fig-align="center"}
+
+
+
+Pour en savoir plus, consultez cette page : [https://confluence.agriculture.rie.gouv.fr/confluence/pages/viewpage.action?pageId=1464271775](https://confluence.agriculture.rie.gouv.fr/confluence/pages/viewpage.action?pageId=1464271775)
 
 ## Demande d'assistance liée à la montée de version de Cerise
 
