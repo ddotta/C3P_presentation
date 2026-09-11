@@ -33,7 +33,7 @@ editor:
 
 - Ouverture plateforme de test : 3 août 2026.
 - Période de test utilisateur : Jusqu’au 17 septembre 2026
-- Ouverture plateforme de production : Prévue début octobre 2026.
+- Ouverture plateforme de production : Prévue semaine 42 (12/10 au 16/10).
 
 ::: {.callout-note icon=false}
 Au moment de la mise en production en octobre, **une ré-initialisation des sessions sera effectuée sur Cerise**. Veillez à bien sauvegarder votre travail en cours à cette date.
@@ -134,7 +134,7 @@ Profils de sessions :
 ## Nouvelle gestion des sessions (4/4)
 
 - Limite de sessions simultanées : **3 sessions max par utilisateur** (pour garantir des ressources équitables).  
-- Timeout des sessions inactives : Fermeture automatique après **4 jours d'inactivité** (pour libérer les ressources).  
+- Timeout des sessions inactives : Fermeture automatique après **(4) jours d'inactivité** (pour libérer les ressources).  
 
 ![](img/schema_sessions.png){fig-align="center"}
 
@@ -233,7 +233,7 @@ Pratique pour encore plus organiser son environnement de travail.
 :::
 
 ::: {.column width="50%"}
-![](img/configure_sidebar.png){fig-align="center"}
+![](img/sidebar_example.png){fig-align="center"}
 :::
 
 ::::
@@ -294,6 +294,7 @@ Tout script soumis en Workbench Job doit être 100 % autonome.
 Le job s'exécute dans une session R totalement isolée. Il n'accède pas aux variables, fonctions ou données chargées dans la console RStudio active.
 :::
 
+Astuce bonus : Penser à loguer vos scripts afin d'avoir une trace des différentes étapes de traitement une fois l'exécution terminée.
 
 ## Les workbench jobs (2/5)
 
@@ -407,7 +408,10 @@ Montée de version de quarto en 1.9.38
 
 Dans certains cas d'usages (documents quartos utilisés par plusieurs utilisateurs dont la compilation a échoué une première fois) il se peut que des problèmes d'écriture se produisent sur la nouvelle version de Cerise.  
 
-=> **Si tel est le cas, faire un mail à l'assistance**.
+=> **Si tel est le cas, faire un mail à l'assistance**.  
+
+Si vous avez des documents rmarkdown (.rmd) qui contiennent du code Latex, leurs exécutions est en échec actuellement sur C3P de recette => Nécessite une ré-installation complète de Latex.  
+Si vous ne l'avez pas déjà fait, signalez-vous au BQIS si vous êtes dans ce cas.
 
 ## Autres cas
 
